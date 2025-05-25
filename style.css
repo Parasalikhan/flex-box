@@ -1,0 +1,21 @@
+.container
+{
+  border: 2px solid black;
+  height: 500px;
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 20px;
+
+}
+
+.children
+{
+  border: 2px solid red;
+  padding: 20px 40px;
+}
